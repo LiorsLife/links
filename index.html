@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LiorsL | Official Links</title>
+    <style>
+        /* עיצוב כללי ורקע מדורג כהה */
+        body {
+            background: radial-gradient(circle at center, #10141d 0%, #050505 100%);
+            color: #ffffff;
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 60px 20px; /* הגדלתי מעט את הריווח מלמעלה */
+            box-sizing: border-box;
+        }
+
+        /* פרופיל - הוגדל מ-100px ל-130px */
+        .profile-pic {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            border: 3px solid #30363d;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        /* כותרת שם - הוגדלה מ-22px ל-28px */
+        h1 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: 800;
+        }
+
+        /* כותרת משנית - הוגדלה מ-10px ל-13px */
+        .official-links {
+            font-size: 13px;
+            color: #8b949e;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 40px;
+        }
+
+        /* מיכל הכפתורים - הוגדל מ-420px ל-500px */
+        .link-container {
+            width: 100%;
+            max-width: 500px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px; /* הגדלתי את הרווח בין הכפתורים */
+        }
+
+        /* עיצוב כפתור בסיסי - הוגדל ה-Padding והפונט */
+        .link-btn {
+            background-color: #0d1117;
+            text-decoration: none;
+            padding: 22px; /* הוגדל מ-18px */
+            border-radius: 18px;
+            text-align: center;
+            border: 1px solid #21262d;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+        }
+
+        /* טקסט הכפתור - הוגדל מ-17px ל-20px */
+        .btn-text {
+            font-size: 20px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            transition: color 0.3s ease;
+        }
+
+        /* הגדרות צבע התחלתיות קבועות לטקסט */
+        .discord-btn .btn-text { color: #5865F2; }
+        .kick-btn .btn-text { color: #53fc18; }
+        .yt-btn .btn-text { color: #FF0000; }
+        .insta-btn .btn-text { color: #E1306C; }
+
+        .link-btn:hover {
+            transform: scale(1.03); /* הגדלה מעט יותר בולטת ב-hover */
+            background-color: #0d1117;
+        }
+
+        /* אפקטי זוהר (Hover) */
+        .discord-btn:hover { border-color: #5865F2; box-shadow: 0 0 25px rgba(88, 101, 242, 0.4); }
+        .kick-btn:hover { border-color: #53fc18; box-shadow: 0 0 25px rgba(83, 252, 24, 0.4); }
+        .yt-btn:hover { border-color: #FF0000; box-shadow: 0 0 25px rgba(255, 0, 0, 0.4); }
+        .insta-btn:hover { border-color: #E1306C; box-shadow: 0 0 25px rgba(225, 48, 108, 0.4); }
+
+        .footer {
+            margin-top: 60px;
+            color: #484f58;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="https://files.kick.com/images/user/86976233/profile_image/conversion/4724dae9-7372-42dc-8809-4454569188f0-fullsize.webp" alt="LiorsLife" class="profile-pic">
+    <h1>LiorsLife</h1>
+    <div class="official-links">OFFICIAL LINKS</div>
+
+    <div class="link-container">
+        
+        <a href="https://discord.com/invite/7k4Cjasbxr" target="_blank" class="link-btn discord-btn">
+            <span class="btn-text">הדיסקורד הרשמי <img src="https://cdn-icons-png.flaticon.com/512/5968/5968756.png" width="24"></span>
+        </a>
+
+        <a href="https://kick.com/liorslife" target="_blank" class="link-btn kick-btn">
+            <span class="btn-text">Kick – לייבים <img src="https://github.com/OdedSVR/images/blob/main/kick%20logo.png?raw=true" width="30"></span>
+        </a>
+
+        <a href="https://www.youtube.com/@LiorsLife" target="_blank" class="link-btn yt-btn">
+            <span class="btn-text">הערוץ הרשמי <img src="https://github.com/OdedSVR/images/blob/main/YTLOGO.png?raw=true" width="30"></span>
+        </a>
+
+        <a href="https://www.instagram.com/liors.life" target="_blank" class="link-btn insta-btn">
+            <span class="btn-text">האינסטגרם שלי <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" width="22"></span>
+        </a>
+
+    </div>
+
+    <div class="footer">
+        © 2026 LiorsLife | Powered by Akfush
+    </div>
+
+</body>
+</html>
